@@ -1,4 +1,4 @@
-Cadastro e Gerenciamento de Produtos
+# Cadastro e Gerenciamento de Produtos
 
 Este projeto consiste em um sistema para cadastro e gerenciamento de produtos. Ele é dividido em duas partes principais: o frontend (interface do usuário) e o backend (API para manipulação dos dados).
 Estrutura do Projeto
@@ -19,7 +19,7 @@ Localização dos Arquivos:
         public/scripts/cadastro.js: Para o cadastro de produtos.
         public/scripts/listagem.js: Para exibir os produtos.
 
-Backend
+### Backend
 
 O backend é uma API REST desenvolvida em Node.js utilizando o framework Express. Ele manipula os dados dos produtos enviados pelo frontend e os armazena.
 Principais Recursos:
@@ -39,7 +39,7 @@ Dependências Utilizadas:
         express: Framework para criação do servidor.
         cors: Middleware para habilitar o CORS e permitir comunicação entre frontend e backend.
 
-Como Executar o Projeto
+## Como Executar o Projeto
 Requisitos:
 
     Node.js instalado na máquina.
@@ -64,7 +64,7 @@ Inicie o servidor:
 
 O servidor estará rodando em http://localhost:8000.
 
-Configurar o Frontend:
+## Configurar o Frontend:
 
 Navegue até a pasta public.
 Use um servidor estático para abrir os arquivos. Por exemplo, com o live-server:
@@ -79,7 +79,7 @@ Cadastro de Produtos:
 O usuário insere o nome, o valor e a disponibilidade do produto.
  Os dados são enviados para o backend e armazenados.
 
-Listagem de Produtos:
+### Listagem de Produtos:
 
 A lista de produtos é carregada dinamicamente na página, buscando os dados do backend.
 Os produtos são exibidos em ordem crescente utilizando o algoritmo Quick Sort.
