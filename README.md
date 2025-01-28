@@ -95,14 +95,11 @@ POST /products/save
         Descrição: Salva um novo produto no arquivo products.json.
         Requisição:
 
-    {
-      "name": "Produto 1",
-      "price": 19.99,
-      "avaliability": "Disponível"
-    }
-
-    Resposta:
-        200 OK: Confirmação de que o produto foi salvo.
+        {
+          "name": "Produto 1",
+          "price": 19.99,
+          "avaliability": "Disponível"
+        }
 
 GET /products
 
