@@ -1,0 +1,25 @@
+# Diretórios node_modules
+backend/node_modules/
+frontend/node_modules/
+
+# Arquivos de ambiente
+backend/.env
+
+# Arquivos de log
+*.log
+
+# Arquivos de dependências do npm
+package-lock.json
+yarn.lock
+
+# Diretórios de build
+dist/
+build/
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/

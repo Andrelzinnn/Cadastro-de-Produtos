@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+
+#divProductList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 14px 20px 31px -10px rgba(0,0,0,0.21);
+    border-radius: 8px;  
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+
+#productsList {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+}
+
+#productsList th,
+#productsList td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;  
+}
+
+#productsList th {
+    background-color: #007bff;
+    color: white;
+}
+
+#productsList tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+#productsList td:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+
+button {
+    margin-top: 5%;
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    #divProductList {
+        width: 100%;
+        padding: 10px;
+    }
+
+    button {
+        width: 80%;  
+    }
+}

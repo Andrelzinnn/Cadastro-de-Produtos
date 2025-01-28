@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de produto</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <div id="divProductRegister">
+        <h1>Cadastro de Produto</h1>
+        <input type="text" id="productName" placeholder="Nome do Produto" required>
+        <input type="number" id="productValue" placeholder="Valor do Produto" required>
+        <h4>Produto Disponivel?</h4>
+        <div id="div-d">
+            <label for="productAvaliabilityDisponible">Sim</label><input type="radio" value="Disponivel" name="disponibilidade" id="productAvaliabilityDisponible" required checked>
+            <label for="productAvaliabilityIndisponible">Não</label><input type="radio" value="Indisponivel" name="disponibilidade" id="productAvaliabilityIndisponible" required>
+        </div>
+        <button id="btn-send">Cadastrar Produto</button>
+    </div>
+
+
+
+    <script src="scripts/cadastro.js"></script>
+</body>
+
+</html>
