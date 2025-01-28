@@ -114,4 +114,4 @@ GET /products
           }
         ]
 
-Desenvolvido com 💻 por Andrelzinn.
+Desenvolvido com por Andrelzinn👨🏾‍💻.
