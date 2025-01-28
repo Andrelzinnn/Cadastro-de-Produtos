@@ -7,9 +7,9 @@ Frontend
 O frontend é responsável por oferecer uma interface amigável para que o usuário possa cadastrar produtos e visualizar a lista de produtos cadastrados. Ele foi desenvolvido utilizando HTML, CSS e JavaScript.
 Principais Recursos:
 
-    Cadastro de produtos: Formulário para inserção de nome, valor e disponibilidade do produto.
-    Exibição de produtos: Tabela que lista todos os produtos cadastrados, incluindo nome e valor formatado em moeda brasileira (R$).
-    Validação: Verifica se todos os campos do formulário foram preenchidos antes de enviar os dados.
+Cadastro de produtos: Formulário para inserção de nome, valor e disponibilidade do produto.
+Exibição de produtos: Tabela que lista todos os produtos cadastrados, incluindo nome e valor formatado em moeda brasileira (R$).
+Validação: Verifica se todos os campos do formulário foram preenchidos antes de enviar os dados.
 
 Localização dos Arquivos:
 
@@ -46,17 +46,17 @@ Requisitos:
 
 Passos para Configuração:
 
-    Clone o Repositório:
+Clone o Repositório:
 
-git clone <URL_DO_REPOSITORIO>
-cd <PASTA_DO_PROJETO>
+    git clone <URL_DO_REPOSITORIO>
+    cd <PASTA_DO_PROJETO>
 
 Configuração do Backend:
 
-    Navegue até a pasta Backend.
-    Instale as dependências:
+Navegue até a pasta Backend.
+Instale as dependências:
 
-npm install
+    npm install
 
 Inicie o servidor:
 
@@ -66,31 +66,32 @@ O servidor estará rodando em http://localhost:8000.
 
 Configurar o Frontend:
 
-    Navegue até a pasta public.
-    Use um servidor estático para abrir os arquivos. Por exemplo, com o live-server:
+Navegue até a pasta public.
+Use um servidor estático para abrir os arquivos. Por exemplo, com o live-server:
 
-        live-server
+live-server
 
-    O frontend estará acessível no navegador, geralmente em http://127.0.0.1:5500 ou outra URL definida.
+O frontend estará acessível no navegador, geralmente em http://127.0.0.1:5500 ou outra URL definida.
 
 Funcionalidades
 Cadastro de Produtos:
 
-    O usuário insere o nome, o valor e a disponibilidade do produto.
-    Os dados são enviados para o backend e armazenados.
+O usuário insere o nome, o valor e a disponibilidade do produto.
+ Os dados são enviados para o backend e armazenados.
 
 Listagem de Produtos:
 
-    A lista de produtos é carregada dinamicamente na página, buscando os dados do backend.
-    Os produtos são exibidos em ordem crescente utilizando o algoritmo Quick Sort.
-    Os produtos são exibidos dinamicamente em uma tabela formatada, com os preços em R$.
+A lista de produtos é carregada dinamicamente na página, buscando os dados do backend.
+Os produtos são exibidos em ordem crescente utilizando o algoritmo Quick Sort.
+Os produtos são exibidos dinamicamente em uma tabela formatada, com os preços em R$.
 
 Estrutura de Endpoints da API
 
 Base URL: http://localhost:8000/products
 Endpoints Disponíveis:
 
-    POST /products/save
+POST /products/save
+    
         Descrição: Salva um novo produto no arquivo products.json.
         Requisição:
 
