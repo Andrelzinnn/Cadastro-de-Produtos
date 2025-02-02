@@ -34,7 +34,7 @@ Estrutura do Backend:
 
 Dependências Utilizadas:
 
-    Frontend: Nenhuma dependência adicional foi necessária.
+    Frontend: Apenas o express para rodar o frontend.
     Backend:
         express: Framework para criação do servidor.
         cors: Middleware para habilitar o CORS e permitir comunicação entre frontend e backend.
@@ -67,11 +67,17 @@ O servidor estará rodando em http://localhost:8000.
 ## Configurar o Frontend:
 
 Navegue até a pasta public.
-Use um servidor estático para abrir os arquivos. Por exemplo, com o live-server:
+Instale as dependências:
 
-live-server
+    npm install
 
-O frontend estará acessível no navegador, geralmente em http://127.0.0.1:5500 ou outra URL definida.
+Inicie o servidor:
+
+    node app.js
+
+
+
+O frontend estará rodando em http://localhost:3000.
 
 Funcionalidades
 Cadastro de Produtos:
